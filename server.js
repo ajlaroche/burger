@@ -13,15 +13,9 @@ app.set("view engine", "handlebars");
 
 app.use(bodyParser.urlencoded({extended: false}));
 
-app.use(methodOverride("__method"));
+app.use(methodOverride("_method"));
 
-
-
-
-
-
-
-
+app.use("/", routes);
 
 app.listen(PORT, function() {
     // Log (server-side) when our server has started
