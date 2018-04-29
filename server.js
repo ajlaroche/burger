@@ -17,6 +17,8 @@ app.use(methodOverride("_method"));
 
 app.use("/", routes);
 
+app.use(express.static("./public/assets"));
+
 app.listen(PORT, function() {
     // Log (server-side) when our server has started
     console.log("Server listening on: http://localhost:" + PORT);
