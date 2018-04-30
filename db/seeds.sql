@@ -5,15 +5,15 @@ burger_name
 , devoured
 )
 VALUES (
-'black bean burger'
+'Black Bean Burger'
 , false
 ),
 (
-'bison burger'
+'Bison Burger'
 , false
 ),
 (
-'turkey burger'
+'Turkey Burger'
 , false
 );
 
